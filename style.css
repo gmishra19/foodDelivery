@@ -147,10 +147,7 @@ position: absolute;
 #clients{
     align-items: center;
     display: flex;
-    
-  
-
-}
+   }
 #client-item{
     display: block;
     margin: auto;
@@ -160,10 +157,4 @@ position: absolute;
     display:block;
     width: 33%;
     height: 33%;
-
-
-    
-    
-   
-    
 }
