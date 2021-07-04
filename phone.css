@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(52, 168, 130);
+}
+#navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  
+
+}
+
+#navbar ul li a{
+    font-size: 12px;
+}
+
+
+#home{
+    height: 626px;
+    padding: 0px 102px;
+
+
+}
+#home::before{
+    height: 626px;
+}
+#home p{
+   font-size: 13px;
+}
+#services{
+    flex-direction: column;
+
+
+}
+
+#services .box {
+    border: 2px solid brown;
+    padding: 25px;
+    margin: 3px 7px;
+    border-radius: 10px;
+    background-color: cornsilk;
+}
+#clients{
+   flex-wrap: wrap;
+}
+#clients img{
+    width: 66px;
+    padding: 6px;
+    height: auto;
+}
+
+#h1primary{
+    font-size: 0.8rem;
+    padding: 2px;
+    margin-top: 10px;
+    margin-bottom: 13px;
+    text-align: center;
+    align-items: center;
+}
